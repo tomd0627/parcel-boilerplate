@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parcel.js Boilerplate</title>
+  <link rel="stylesheet" href="../assets/styles/index.scss" />
+</head>
+
+<body>
+  <div class="d-flex flex-column h-100">
+    <include src="./partials/layout/header.html"></include>
+    <main class="flex-grow-1">
+      <div class="py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3>
+                This is a static Front-End boilerplate which uses
+                <a href="https://parceljs.org/" target="_blank">Parcel.js</a>
+                to quickly get set up with some common frameworks and plugins.
+              </h3>
+              <include src="./partials/components/subheading.html" locals='{"subheadingText": "They Include"}'>
+              </include>
+              <ul>
+                <li>
+                  <a href="https://getbootstrap.com/" target="_blank">Bootstrap 4</a>
+                </li>
+                <li>
+                  <a href="https://fontawesome.com/start" target="_blank">Font Awesome 5 Free</a>
+                </li>
+                <li>
+                  <a href="https://jquery.com/" target="_blank">jQuery</a>
+                </li>
+                <li>
+                  <a href="https://github.com/fregante/object-fit-images" target="_blank">Object-Fit Images</a>
+                  (IE11 <code>object-fit</code> polyfill)
+                </li>
+                <li>
+                  <a href="https://github.com/posthtml/posthtml-include" target="_blank">PostHTML Include</a>
+                  (for including HTML partials)
+                </li>
+                <li>
+                  <a href="https://sass-lang.com/" target="_blank">SASS</a>
+                </li>
+                <li>
+                  <a href="https://kenwheeler.github.io/slick/" target="_blank">Slick Carousel</a>
+                </li>
+              </ul>
+              <include src="./partials/components/subheading.html" locals='{"subheadingText": "To Get Started"}'>
+              </include>
+              <p>
+                <b>Note:</b> You will need node <code>v10</code> or higher.
+              </p>
+              <ol>
+                <li>
+                  Run <code>npm install</code> or <code>yarn install</code>
+                </li>
+                <li>
+                  Run <code>npm run dev</code> or <code>yarn dev</code> to
+                  start a development server with LiveReload.
+                </li>
+                <li>
+                  Run <code>npm run build</code> or <code>yarn build</code> to
+                  build all files and assets for production in a <code>dist</code> folder.
+                </li>
+              </ol>
+              <include src="./partials/components/subheading.html" locals='{"subheadingText": "Folder Structure"}'>
+              </include>
+              <p>
+                <b>Note:</b> Each file with the name <code>index</code> is a
+                master import file.
+              </p>
+              <ul class="list--folder">
+                <li>
+                  assets
+                  <ul>
+                    <li>fonts</li>
+                    <li>images</li>
+                    <li>scripts</li>
+                    <li>
+                      styles
+                      <ul>
+                        <li>base</li>
+                        <li>components</li>
+                        <li>layout</li>
+                        <li>settings</li>
+                        <li>vendor</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>pages</li>
+                <li>
+                  partials
+                  <ul>
+                    <li>components</li>
+                    <li>layout</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <include src="./partials/layout/footer.html"></include>
+  </div>
+
+  <script src="../assets/scripts/index.js"></script>
+</body>
+
+</html>
