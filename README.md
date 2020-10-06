@@ -2,7 +2,11 @@
 
 ### This is a static Front-End boilerplate which uses [Parcel.js](https://parceljs.org/) to quickly get set up with some common frameworks and plugins.
 
+---
+
 #### They Include:
+
+---
 
 - [Bootstrap 4](https://getbootstrap.com/)
 - [Font Awesome 5 Free](https://fontawesome.com/start)
@@ -13,7 +17,11 @@
 - [Select2](https://select2.org/) (for custom styling of `select` elements)
 - [Slick Carousel](https://kenwheeler.github.io/slick/)
 
+---
+
 #### To Get Started:
+
+---
 
 **Note:** You will need node `v10` or higher.
 
@@ -21,7 +29,11 @@
 - Run `npm run dev` or `yarn dev` to start a development server with LiveReload.
 - Run `npm run build` or `yarn build` to build all files and assets for production in a `dist` folder.
 
-### Folder Structure
+---
+
+#### Folder Structure
+
+---
 
 **Note:** Each file with the name `index` is a master import file.
 
