@@ -37,19 +37,21 @@
 
 **Note:** Each file with the name `index` is a master import file.
 
-- assets
-  - fonts
-  - images
-  - scripts
-  - styles
-    - base
-    - components
-    - layout
-    - settings
-    - vendor
-- pages
-- partials
-  - components
-  - layout
+```
+|--assets
+  |--fonts
+  |--images
+  |--scripts
+  |--styles
+    |--base
+    |--components
+    |--layout
+    |--settings
+    |--vendor
+|--pages
+|--partials
+  |--components
+  |--layout
+```
 
 Made with :heart: by Tom DeLuca
