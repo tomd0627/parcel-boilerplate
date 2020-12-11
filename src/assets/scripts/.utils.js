@@ -13,5 +13,5 @@ $(function () {
 select2($);
 $(`select`).select2({
   minimumResultsForSearch: Infinity,
-  theme: 'default'
+  theme: "default",
 });

@@ -1,12 +1,11 @@
 .subheading {
-    border-top: $hr-border-width solid $hr-border-color;
-    border-bottom: $hr-border-width solid $hr-border-color;
-    margin-bottom: $hr-margin-y;
-    margin-top: $hr-margin-y;
-    padding-top: $hr-margin-y;
-    padding-bottom: $hr-margin-y;
+  border: $hr-border-width solid $hr-border-color;
+  border-left: 0;
+  border-right: 0;
+  margin: $hr-margin-y 0;
+  padding: $hr-margin-y 0;
 
-    h4 {
-        margin: 0;
-    }
+  h4 {
+    margin: 0;
+  }
 }
