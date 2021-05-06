@@ -8,7 +8,7 @@
 
 ---
 
-- [Bootstrap 4](https://getbootstrap.com/)
+- [Bootstrap 5](https://getbootstrap.com/)
 - [Font Awesome 5 Free](https://fontawesome.com/start)
 - [jQuery](https://jquery.com/)
 - [Object-Fit Images](https://github.com/fregante/object-fit-images) (IE11 `object-fit` polyfill)
