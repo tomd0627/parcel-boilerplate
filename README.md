@@ -15,7 +15,7 @@
 - [PostHTML Include](https://github.com/posthtml/posthtml-include) (for including HTML partials)
 - [SASS](https://sass-lang.com/)
 - [Select2](https://select2.org/) (for custom styling of `select` elements)
-- [Slick Carousel](https://kenwheeler.github.io/slick/)
+- [Slick Carousel](https://accessible360.github.io/accessible-slick/) (accessible, WCAG 2.0 / 2.1 compliant)
 
 ---
 

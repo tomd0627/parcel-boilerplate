@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@accessible360/accessible-slick": "^1.0.1",
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.2",
@@ -20,11 +21,11 @@
     "parcel-bundler": "^1.12.5",
     "posthtml-include": "^1.7.1",
     "sass": "^1.35.2",
-    "select2": "^4.1.0-rc.0",
-    "slick-carousel": "^1.8.1"
+    "select2": "^4.1.0-rc.0"
   },
   "dependencies": {
     "npm": "^7.20.0",
+    "slick-carousel": "^1.8.1",
     "utils": "^0.3.1",
     "utils.js": "^1.0.1"
   }

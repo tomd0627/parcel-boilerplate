@@ -2,7 +2,7 @@ import $ from "jquery";
 import "bootstrap";
 import objectFitImages from "object-fit-images";
 import select2 from "select2";
-import "slick-carousel";
+import "@accessible360/accessible-slick";
 
 // initialize 'object-fit-images'
 $(function () {
