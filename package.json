@@ -13,18 +13,18 @@
   "license": "ISC",
   "devDependencies": {
     "@accessible360/accessible-slick": "^1.0.1",
-    "@fortawesome/fontawesome-free": "^5.15.3",
-    "@popperjs/core": "^2.9.2",
-    "bootstrap": "^5.0.2",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@popperjs/core": "^2.10.2",
+    "bootstrap": "^5.1.1",
     "jquery": "^3.6.0",
     "object-fit-images": "^3.2.4",
     "parcel-bundler": "^1.12.5",
     "posthtml-include": "^1.7.1",
-    "sass": "^1.35.2",
+    "sass": "^1.42.1",
     "select2": "^4.1.0-rc.0"
   },
   "dependencies": {
-    "npm": "^7.20.0",
+    "npm": "^7.24.1",
     "slick-carousel": "^1.8.1",
     "utils": "^0.3.1",
     "utils.js": "^1.0.1"
